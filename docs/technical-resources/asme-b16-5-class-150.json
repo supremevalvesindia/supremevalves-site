@@ -1,0 +1,92 @@
+[
+  {
+    "DN": 15,
+    "Nominal Pipe Size (NPS)": "1/2\"",
+    "OD (mm)": 89,
+    "OD (in)": 3.5,
+    "Flange Thickness (t) (mm)": 11.2,
+    "Bolt Circle Diameter (BCD) (mm)": 60.3,
+    "No. of Bolts": 4,
+    "Bolt Diameter": "M12"
+  },
+  {
+    "DN": 25,
+    "Nominal Pipe Size (NPS)": "1\"",
+    "OD (mm)": 108,
+    "OD (in)": 4.25,
+    "Flange Thickness (t) (mm)": 12.7,
+    "Bolt Circle Diameter (BCD) (mm)": 79.4,
+    "No. of Bolts": 4,
+    "Bolt Diameter": "M12"
+  },
+  {
+    "DN": 50,
+    "Nominal Pipe Size (NPS)": "2\"",
+    "OD (mm)": 152,
+    "OD (in)": 6,
+    "Flange Thickness (t) (mm)": 15.9,
+    "Bolt Circle Diameter (BCD) (mm)": 120.7,
+    "No. of Bolts": 4,
+    "Bolt Diameter": "M16"
+  },
+  {
+    "DN": 80,
+    "Nominal Pipe Size (NPS)": "3\"",
+    "OD (mm)": 190.5,
+    "OD (in)": 7.5,
+    "Flange Thickness (t) (mm)": 17.5,
+    "Bolt Circle Diameter (BCD) (mm)": 152.4,
+    "No. of Bolts": 4,
+    "Bolt Diameter": "M16"
+  },
+  {
+    "DN": 100,
+    "Nominal Pipe Size (NPS)": "4\"",
+    "OD (mm)": 228.6,
+    "OD (in)": 9,
+    "Flange Thickness (t) (mm)": 19,
+    "Bolt Circle Diameter (BCD) (mm)": 190.5,
+    "No. of Bolts": 8,
+    "Bolt Diameter": "M16"
+  },
+  {
+    "DN": 150,
+    "Nominal Pipe Size (NPS)": "6\"",
+    "OD (mm)": 279.4,
+    "OD (in)": 11,
+    "Flange Thickness (t) (mm)": 22.2,
+    "Bolt Circle Diameter (BCD) (mm)": 241.3,
+    "No. of Bolts": 8,
+    "Bolt Diameter": "M19"
+  },
+  {
+    "DN": 200,
+    "Nominal Pipe Size (NPS)": "8\"",
+    "OD (mm)": 342.9,
+    "OD (in)": 13.5,
+    "Flange Thickness (t) (mm)": 23.8,
+    "Bolt Circle Diameter (BCD) (mm)": 298.5,
+    "No. of Bolts": 8,
+    "Bolt Diameter": "M19"
+  },
+  {
+    "DN": 250,
+    "Nominal Pipe Size (NPS)": "10\"",
+    "OD (mm)": 406.4,
+    "OD (in)": 16,
+    "Flange Thickness (t) (mm)": 25.4,
+    "Bolt Circle Diameter (BCD) (mm)": 362,
+    "No. of Bolts": 12,
+    "Bolt Diameter": "M22"
+  },
+  {
+    "DN": 300,
+    "Nominal Pipe Size (NPS)": "12\"",
+    "OD (mm)": 482.6,
+    "OD (in)": 19,
+    "Flange Thickness (t) (mm)": 28.6,
+    "Bolt Circle Diameter (BCD) (mm)": 431.8,
+    "No. of Bolts": 12,
+    "Bolt Diameter": "M22"
+  }
+]

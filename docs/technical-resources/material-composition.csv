@@ -1,0 +1,8 @@
+Material,Common Spec,C (%),Cr (%),Ni (%),Mo (%),Other (%),Use Cases (DN Relevance)
+Carbon Steel,ASTM A105,0.35 max,-,-,-,"Mn (0.6-1.05), Si (0.1-0.35)",General purpose valves/flanges (DN 15-600)
+Stainless Steel,ASTM A182 F304,0.08 max,18.0-20.0,8.0-11.0,-,"Mn (2.0 max), Si (1.0 max)",Corrosion resistance, food/pharma (DN 15-900)
+Stainless Steel,ASTM A182 F316,0.08 max,16.0-18.0,10.0-14.0,2.0-3.0,"Mn (2.0 max), Si (1.0 max)",Enhanced corrosion, higher temp (DN 15-900)
+Alloy Steel,ASTM A182 F11,0.05-0.15,1.0-1.5,-,0.44-0.65,"Mn (0.3-0.8), Si (0.5-1.0)",High temp, moderate pressure (DN 50-600)
+Alloy Steel,ASTM A182 F22,0.05-0.15,2.0-2.5,-,0.9-1.1,"Mn (0.3-0.8), Si (0.5-1.0)",High temp, high pressure (DN 50-600)
+Duplex SS,ASTM A182 F51,0.03 max,21.0-23.0,4.5-6.5,2.5-3.5,"N (0.08-0.20)",High strength, chloride service (DN 25-900)
+Super Duplex SS,ASTM A182 F55,0.03 max,24.0-26.0,6.0-8.0,3.0-4.0,"N (0.20-0.30), W (0.5-1.0)",Extreme corrosion, high strength (DN 25-900)

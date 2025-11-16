@@ -1,0 +1,72 @@
+[
+  {
+    "Material": "Carbon Steel",
+    "Common Spec": "ASTM A105",
+    "C (%)": "0.35 max",
+    "Cr (%)": "-",
+    "Ni (%)": "-",
+    "Mo (%)": "-",
+    "Other (%)": "Mn (0.6-1.05), Si (0.1-0.35)",
+    "Use Cases (DN Relevance)": "General purpose valves/flanges (DN 15-600)"
+  },
+  {
+    "Material": "Stainless Steel",
+    "Common Spec": "ASTM A182 F304",
+    "C (%)": "0.08 max",
+    "Cr (%)": "18.0-20.0",
+    "Ni (%)": "8.0-11.0",
+    "Mo (%)": "-",
+    "Other (%)": "Mn (2.0 max), Si (1.0 max)",
+    "Use Cases (DN Relevance)": "Corrosion resistance, food/pharma (DN 15-900)"
+  },
+  {
+    "Material": "Stainless Steel",
+    "Common Spec": "ASTM A182 F316",
+    "C (%)": "0.08 max",
+    "Cr (%)": "16.0-18.0",
+    "Ni (%)": "10.0-14.0",
+    "Mo (%)": "2.0-3.0",
+    "Other (%)": "Mn (2.0 max), Si (1.0 max)",
+    "Use Cases (DN Relevance)": "Enhanced corrosion, higher temp (DN 15-900)"
+  },
+  {
+    "Material": "Alloy Steel",
+    "Common Spec": "ASTM A182 F11",
+    "C (%)": "0.05-0.15",
+    "Cr (%)": "1.0-1.5",
+    "Ni (%)": "-",
+    "Mo (%)": "0.44-0.65",
+    "Other (%)": "Mn (0.3-0.8), Si (0.5-1.0)",
+    "Use Cases (DN Relevance)": "High temp, moderate pressure (DN 50-600)"
+  },
+  {
+    "Material": "Alloy Steel",
+    "Common Spec": "ASTM A182 F22",
+    "C (%)": "0.05-0.15",
+    "Cr (%)": "2.0-2.5",
+    "Ni (%)": "-",
+    "Mo (%)": "0.9-1.1",
+    "Other (%)": "Mn (0.3-0.8), Si (0.5-1.0)",
+    "Use Cases (DN Relevance)": "High temp, high pressure (DN 50-600)"
+  },
+  {
+    "Material": "Duplex SS",
+    "Common Spec": "ASTM A182 F51",
+    "C (%)": "0.03 max",
+    "Cr (%)": "21.0-23.0",
+    "Ni (%)": "4.5-6.5",
+    "Mo (%)": "2.5-3.5",
+    "Other (%)": "N (0.08-0.20)",
+    "Use Cases (DN Relevance)": "High strength, chloride service (DN 25-900)"
+  },
+  {
+    "Material": "Super Duplex SS",
+    "Common Spec": "ASTM A182 F55",
+    "C (%)": "0.03 max",
+    "Cr (%)": "24.0-26.0",
+    "Ni (%)": "6.0-8.0",
+    "Mo (%)": "3.0-4.0",
+    "Other (%)": "N (0.20-0.30), W (0.5-1.0)",
+    "Use Cases (DN Relevance)": "Extreme corrosion, high strength (DN 25-900)"
+  }
+]

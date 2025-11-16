@@ -1,0 +1,17 @@
+DN,Valve Type,Cv (at 1 psi ΔP),Flow Rate (m^3/hr),Typical Application
+15,Gate Valve,15,3.4,On/Off isolation, low pressure drop
+15,Globe Valve,5,1.1,Throttling, flow regulation
+15,Ball Valve,25,5.7,Quick shut-off, tight sealing
+15,Butterfly Valve,20,4.5,Isolation, moderate throttling
+50,Gate Valve,200,45.4,Full flow, minimal resistance
+50,Globe Valve,70,15.9,Precise flow control
+50,Ball Valve,350,79.5,High flow capacity, quick operation
+50,Butterfly Valve,300,68.1,Large volume flow, compact design
+100,Gate Valve,800,181.7,Main line isolation
+100,Globe Valve,280,63.6,Continuous flow modulation
+100,Ball Valve,1400,317.9,High integrity shut-off
+100,Butterfly Valve,1200,272.6,HVAC, water treatment
+200,Gate Valve,3200,726.8,Large pipeline isolation
+200,Globe Valve,1100,250.0,Heavy-duty throttling
+200,Ball Valve,5600,1271.9,High capacity, critical service
+200,Butterfly Valve,4800,1090.6,Industrial water, air systems

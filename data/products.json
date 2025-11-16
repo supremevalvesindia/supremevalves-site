@@ -1,0 +1,284 @@
+{
+  "products": [
+    {
+      "id": "gate-valve",
+      "name": "Gate Valve",
+      "shortName": "Gate Valves",
+      "category": "Control Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "High-performance gate valves for reliable on-off control in industrial applications.",
+      "applications": ["Oil & Gas", "Petrochemical", "Water Treatment"],
+      "featured": true
+    },
+    {
+      "id": "globe-valve",
+      "name": "Globe Valve",
+      "shortName": "Globe Valves",
+      "category": "Control Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Precision flow control valves for throttling and regulating applications.",
+      "applications": ["Steam Systems", "Chemical Processing", "HVAC"],
+      "featured": true
+    },
+    {
+      "id": "ball-valve",
+      "name": "Ball Valve",
+      "shortName": "Ball Valves",
+      "category": "Quarter-Turn Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Quick-acting ball valves for tight shut-off and minimal pressure drop.",
+      "applications": ["Oil & Gas", "Water", "Chemical"],
+      "featured": true
+    },
+    {
+      "id": "ball-valve-actuator",
+      "name": "Ball Valve with Actuator",
+      "shortName": "Actuated Ball Valves",
+      "category": "Automated Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Automated ball valves with electric, pneumatic, or hydraulic actuators.",
+      "applications": ["Process Automation", "Remote Control", "Safety Systems"],
+      "featured": true
+    },
+    {
+      "id": "check-valve",
+      "name": "Check Valve",
+      "shortName": "Check Valves",
+      "category": "Non-Return Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Automatic valves preventing reverse flow and backflow protection.",
+      "applications": ["Pump Protection", "Pipeline Systems", "Water Systems"],
+      "featured": true
+    },
+    {
+      "id": "butterfly-valve",
+      "name": "Butterfly Valve",
+      "shortName": "Butterfly Valves",
+      "category": "Quarter-Turn Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Compact, lightweight valves for large diameter applications.",
+      "applications": ["HVAC", "Water Distribution", "Food Processing"],
+      "featured": true
+    },
+    {
+      "id": "sight-glass",
+      "name": "Sight Glass",
+      "shortName": "Sight Glass",
+      "category": "Flow Indicators",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Visual flow indicators for monitoring fluid flow and level.",
+      "applications": ["Process Monitoring", "Tank Level", "Flow Verification"],
+      "featured": true
+    },
+    {
+      "id": "knife-edge-gate-valve",
+      "name": "Knife Edge Gate Valve",
+      "shortName": "Knife Gate Valves",
+      "category": "Specialty Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Designed for slurry and viscous media with cutting edge disc.",
+      "applications": ["Mining", "Pulp & Paper", "Wastewater"],
+      "featured": true
+    },
+    {
+      "id": "swing-check-valve",
+      "name": "Swing Check Valve",
+      "shortName": "Swing Check Valves",
+      "category": "Non-Return Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Full-bore check valves with minimal pressure drop.",
+      "applications": ["Pump Discharge", "Pipeline", "Water Systems"],
+      "featured": true
+    },
+    {
+      "id": "piston-valve",
+      "name": "Piston Valve",
+      "shortName": "Piston Valves",
+      "category": "Control Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "High-pressure valves for precise flow control.",
+      "applications": ["High Pressure Systems", "Steam", "Gas"],
+      "featured": true
+    },
+    {
+      "id": "blow-down-valve",
+      "name": "Blow Down Valve",
+      "shortName": "Blow Down Valves",
+      "category": "Specialty Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Valves for draining and purging systems.",
+      "applications": ["Boiler Systems", "Pressure Vessels", "Steam Systems"],
+      "featured": true
+    },
+    {
+      "id": "basket-strainer",
+      "name": "Basket / Pot Type Strainer",
+      "shortName": "Basket Strainers",
+      "category": "Strainers & Filters",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Large capacity strainers for removing debris from pipelines.",
+      "applications": ["Pump Protection", "Process Lines", "Cooling Water"],
+      "featured": true
+    },
+    {
+      "id": "single-piece-ball-valve",
+      "name": "Single Piece Ball Valve",
+      "shortName": "1-Piece Ball Valves",
+      "category": "Quarter-Turn Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Compact, economical ball valves for general service.",
+      "applications": ["Water", "Air", "Light Duty Applications"],
+      "featured": true
+    },
+    {
+      "id": "non-slam-check-valve",
+      "name": "Non Slam Check Valve",
+      "shortName": "Non-Slam Check Valves",
+      "category": "Non-Return Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Silent check valves preventing water hammer.",
+      "applications": ["Pump Systems", "High Velocity Lines", "Water Distribution"],
+      "featured": true
+    },
+    {
+      "id": "needle-valve",
+      "name": "Needle Valve",
+      "shortName": "Needle Valves",
+      "category": "Control Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Precision valves for fine flow control and instrumentation.",
+      "applications": ["Instrumentation", "Sampling", "Gauge Lines"],
+      "featured": true
+    },
+    {
+      "id": "y-type-strainer",
+      "name": "Y-Type Strainer",
+      "shortName": "Y-Strainers",
+      "category": "Strainers & Filters",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Compact strainers for removing particles from fluid flow.",
+      "applications": ["Steam", "Gas", "Liquid Lines"],
+      "featured": true
+    },
+    {
+      "id": "two-piece-ball-valve",
+      "name": "Two Piece Ball Valve",
+      "shortName": "2-Piece Ball Valves",
+      "category": "Quarter-Turn Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Serviceable ball valves for industrial applications.",
+      "applications": ["Chemical", "Oil & Gas", "General Industry"],
+      "featured": true
+    },
+    {
+      "id": "dual-plate-check-valve",
+      "name": "Dual Plate Check Valve",
+      "shortName": "Dual Plate Check Valves",
+      "category": "Non-Return Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Compact wafer-style check valves with low pressure drop.",
+      "applications": ["Space-Limited Applications", "HVAC", "Water"],
+      "featured": true
+    },
+    {
+      "id": "three-piece-ball-valve",
+      "name": "Three Piece Ball Valve",
+      "shortName": "3-Piece Ball Valves",
+      "category": "Quarter-Turn Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Fully serviceable ball valves for critical applications.",
+      "applications": ["Chemical Processing", "Pharmaceutical", "Food & Beverage"],
+      "featured": true
+    },
+    {
+      "id": "moisture-separator",
+      "name": "Moisture Separator",
+      "shortName": "Moisture Separators",
+      "category": "Specialty Equipment",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Removes moisture and condensate from steam and gas lines.",
+      "applications": ["Steam Systems", "Compressed Air", "Gas Processing"],
+      "featured": true
+    },
+    {
+      "id": "wafer-check-valve",
+      "name": "Wafer Check Valve",
+      "shortName": "Wafer Check Valves",
+      "category": "Non-Return Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Lightweight check valves for installation between flanges.",
+      "applications": ["HVAC", "Water Treatment", "General Service"],
+      "featured": true
+    },
+    {
+      "id": "pressure-reducing-valve",
+      "name": "Pressure Reducing Valve",
+      "shortName": "Pressure Reducing Valves",
+      "category": "Control Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Automatic valves maintaining downstream pressure.",
+      "applications": ["Steam Distribution", "Gas Regulation", "Water Supply"],
+      "featured": true
+    },
+    {
+      "id": "lift-check-valve",
+      "name": "Lift Type Non Return Valve",
+      "shortName": "Lift Check Valves",
+      "category": "Non-Return Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Vertical flow check valves for high-pressure applications.",
+      "applications": ["High Pressure", "Steam", "Boiler Feed"],
+      "featured": true
+    },
+    {
+      "id": "flush-bottom-valve",
+      "name": "Flush Bottom Valve",
+      "shortName": "Flush Bottom Valves",
+      "category": "Specialty Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Tank bottom valves for complete drainage.",
+      "applications": ["Storage Tanks", "Process Vessels", "Silos"],
+      "featured": true
+    },
+    {
+      "id": "steam-trap-thermodynamic",
+      "name": "Steam Trap - Thermodynamic",
+      "shortName": "Thermodynamic Steam Traps",
+      "category": "Steam Traps",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Compact steam traps for condensate removal.",
+      "applications": ["Steam Lines", "Process Heating", "Tracing"],
+      "featured": true
+    },
+    {
+      "id": "three-way-ball-valve",
+      "name": "Three Way / L Port / T Port Ball Valve",
+      "shortName": "3-Way Ball Valves",
+      "category": "Multi-Port Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Multi-port valves for flow diversion and mixing.",
+      "applications": ["Flow Diversion", "Mixing", "Bypass Systems"],
+      "featured": true
+    },
+    {
+      "id": "safety-relief-valve",
+      "name": "Angle Type / Spring Loaded Safety Relief Valve",
+      "shortName": "Safety Relief Valves",
+      "category": "Safety Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Pressure relief valves for overpressure protection.",
+      "applications": ["Pressure Vessels", "Boilers", "Process Safety"],
+      "featured": true
+    },
+    {
+      "id": "motorized-control-valve",
+      "name": "2-3 Way Motorized, Cylinder & Pneumatic Control Valve",
+      "shortName": "Automated Control Valves",
+      "category": "Automated Valves",
+      "image": "assets/Valves and Projects/hero_image.jpeg",
+      "description": "Automated control valves for process automation.",
+      "applications": ["HVAC Control", "Process Automation", "Flow Control"],
+      "featured": true
+    }
+  ]
+}

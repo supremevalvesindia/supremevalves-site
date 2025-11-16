@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useful Converters & Calculators | Supreme Valves India</title>
+    <meta name="description" content="Interactive online tools for engineers: Pressure unit converter (bar, psi, kg/cm²), Temperature converter (°C ↔ °F), Cv ↔ Kv converter, Flow rate vs. Pressure Drop calculator, and Pipe Size calculator.">
+    <meta name="keywords" content="pressure converter, temperature converter, Cv Kv converter, flow calculator, pressure drop calculator, pipe size calculator, engineering tools, industrial valves, DN, Supreme Valves">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+        .widget-card {
+            background-color: var(--light-gray);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .widget-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+        .form-label {
+            font-weight: 500;
+        }
+        .form-control[readonly] {
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../../index.html"><img src="../../assets/logo.jpg" alt="Supreme Valves India Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../about.html">About Us</a></li>
+                    <li><a href="../../products.html">Products</a></li>
+                    <li><a href="../../industries.html">Industries</a></li>
+                    <li><a href="../../projects.html">Projects</a></li>
+                    <li><a href="../../resources.html">Resources</a></li>
+                    <li><a href="../../contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="breadcrumbs">
+            <a href="../../index.html">Home</a> / <a href="../../resources.html">Resources</a> / <a href="technical-resources.html">Technical Knowledge Base</a> / <span>Converter Tools & Calculators</span>
+        </div>
+
+        <h1 class="section-title">Useful Converters & Calculators</h1>
+        <p class="text-center lead mb-4">A collection of interactive tools and calculators designed to assist engineers, procurement managers, and plant designers with quick conversions and estimations for valve and piping applications. These tools simplify complex calculations, ensuring accuracy and efficiency in your projects.</p>
+
+        <!-- Pressure Unit Converter -->
+        <div class="widget-card">
+            <h3>Pressure Unit Converter</h3>
+            <p class="text-muted">Convert between Bar, PSI, and kg/cm².</p>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label for="pressureBar" class="form-label">Pressure (bar)</label>
+                    <input type="number" class="form-control" id="pressureBar" step="any" onkeyup="convertPressure(this.id)">
+                </div>
+                <div class="col-md-4">
+                    <label for="pressurePsi" class="form-label">Pressure (psi)</label>
+                    <input type="number" class="form-control" id="pressurePsi" step="any" onkeyup="convertPressure(this.id)">
+                </div>
+                <div class="col-md-4">
+                    <label for="pressureKgCm2" class="form-label">Pressure (kg/cm²)</label>
+                    <input type="number" class="form-control" id="pressureKgCm2" step="any" onkeyup="convertPressure(this.id)">
+                </div>
+            </div>
+            <div class="mt-3">
+                <a href="#" class="btn btn-success btn-sm" onclick="downloadConverterData('pressure')">Download CSV</a>
+            </div>
+        </div>
+
+        <!-- Temperature Converter -->
+        <div class="widget-card">
+            <h3>Temperature Converter</h3>
+            <p class="text-muted">Convert between Celsius (°C) and Fahrenheit (°F).</p>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="tempCelsius" class="form-label">Temperature (°C)</label>
+                    <input type="number" class="form-control" id="tempCelsius" step="any" onkeyup="convertTemperature(this.id)">
+                </div>
+                <div class="col-md-6">
+                    <label for="tempFahrenheit" class="form-label">Temperature (°F)</label>
+                    <input type="number" class="form-control" id="tempFahrenheit" step="any" onkeyup="convertTemperature(this.id)">
+                </div>
+            </div>
+            <div class="mt-3">
+                <a href="#" class="btn btn-success btn-sm" onclick="downloadConverterData('temperature')">Download CSV</a>
+            </div>
+        </div>
+
+        <!-- Cv ↔ Kv Converter -->
+        <div class="widget-card">
+            <h3>Cv ↔ Kv Converter</h3>
+            <p class="text-muted">Convert between Flow Coefficient Cv (US GPM) and Kv (m³/hr).</p>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="cvValue" class="form-label">Cv Value</label>
+                    <input type="number" class="form-control" id="cvValue" step="any" onkeyup="convertCvKv(this.id)">
+                </div>
+                <div class="col-md-6">
+                    <label for="kvValue" class="form-label">Kv Value</label>
+                    <input type="number" class="form-control" id="kvValue" step="any" onkeyup="convertCvKv(this.id)">
+                </div>
+            </div>
+            <div class="mt-3">
+                <a href="#" class="btn btn-success btn-sm" onclick="downloadConverterData('cvkv')">Download CSV</a>
+            </div>
+        </div>
+
+        <!-- Flow Rate vs. Pressure Drop Calculator -->
+        <div class="widget-card">
+            <h3>Flow Rate vs. Pressure Drop Calculator</h3>
+            <p class="text-muted">Estimate flow rate or pressure drop for a given valve Cv. Requires DN input for context.</p>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <label for="flowCv" class="form-label">Valve Cv</label>
+                    <input type="number" class="form-control" id="flowCv" step="any" value="100">
+                </div>
+                <div class="col-md-3">
+                    <label for="flowSg" class="form-label">Fluid SG</label>
+                    <input type="number" class="form-control" id="flowSg" step="any" value="1">
+                </div>
+                <div class="col-md-3">
+                    <label for="flowDp" class="form-label">Pressure Drop (psi)</label>
+                    <input type="number" class="form-control" id="flowDp" step="any" value="10">
+                </div>
+                <div class="col-md-3">
+                    <label for="flowRate" class="form-label">Flow Rate (GPM)</label>
+                    <input type="number" class="form-control" id="flowRate" step="any" readonly>
+                </div>
+                <div class="col-md-3">
+                    <label for="flowDN" class="form-label">DN (Nominal Diameter)</label>
+                    <input type="text" class="form-control" id="flowDN" placeholder="e.g., 50">
+                </div>
+                <div class="col-12 mt-3">
+                    <button class="btn btn-primary" onclick="calculateFlowRate()">Calculate Flow Rate</button>
+                    <button class="btn btn-secondary" onclick="calculatePressureDrop()">Calculate Pressure Drop</button>
+                </div>
+            </div>
+            <div class="mt-3">
+                <a href="#" class="btn btn-success btn-sm" onclick="downloadConverterData('flowdp')">Download CSV</a>
+            </div>
+        </div>
+
+        <!-- Pipe Size Calculator -->
+        <div class="widget-card">
+            <h3>Pipe Size Calculator</h3>
+            <p class="text-muted">Determine optimal pipe size (DN/NPS) based on flow rate and desired velocity.</p>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label for="pipeFlowRate" class="form-label">Flow Rate (m³/hr)</label>
+                    <input type="number" class="form-control" id="pipeFlowRate" step="any" value="100">
+                </div>
+                <div class="col-md-4">
+                    <label for="pipeVelocity" class="form-label">Desired Velocity (m/s)</label>
+                    <input type="number" class="form-control" id="pipeVelocity" step="any" value="2">
+                </div>
+                <div class="col-md-4">
+                    <label for="pipeDN" class="form-label">Recommended DN</label>
+                    <input type="text" class="form-control" id="pipeDN" readonly>
+                </div>
+                <div class="col-12 mt-3">
+                    <button class="btn btn-primary" onclick="calculatePipeSize()">Calculate Pipe Size</button>
+                </div>
+            </div>
+            <div class="mt-3">
+                <a href="#" class="btn btn-success btn-sm" onclick="downloadConverterData('pipesize')">Download CSV</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer-new">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Supreme Valves India</h4>
+                    <p>Ranginwala Building, Relief Road, Ahmedabad 380001, Gujarat, India</p>
+                    <p><strong>International Offices:</strong><br>Singapore: sg@supremevalves.in<br>Sydney: aus@supremevalves.in<br>Mississauga: ca@supremevalves.in</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product Range</h4>
+                    <ul>
+                        <li><a href="../../products/gate-valve.html">Gate Valves</a></li>
+                        <li><a href="../../products/globe-valve.html">Globe Valves</a></li>
+                        <li><a href="../../products/ball-valve.html">Ball Valves</a></li>
+                        <li><a href="../../products/check-valve.html">Check Valves</a></li>
+                        <li><a href="../../products/butterfly-valve.html">Butterfly Valves</a></li>
+                        <li><a href="../../products/strainers.html">Strainers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../../about.html">About Us</a></li>
+                        <li><a href="../../products.html">Products</a></li>
+                        <li><a href="../../projects.html">Projects</a></li>
+                        <li><a href="../../contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-socials">
+                 <a href="https://www.linkedin.com/company/supreme-valves-india/posts/?feedView=all" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/p/Supreme-Enterprise-61566023002189/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/supremevalvesindia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Supreme Valves India. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        function convertPressure(id) {
+            let bar, psi, kgcm2;
+            if (id === 'pressureBar') {
+                bar = parseFloat($('#' + id).val());
+                psi = bar * 14.5038;
+                kgcm2 = bar * 1.0197;
+            } else if (id === 'pressurePsi') {
+                psi = parseFloat($('#' + id).val());
+                bar = psi / 14.5038;
+                kgcm2 = psi / 14.2233; // 1 psi = 0.070307 kg/cm2
+            } else if (id === 'pressureKgCm2') {
+                kgcm2 = parseFloat($('#' + id).val());
+                bar = kgcm2 / 1.0197;
+                psi = kgcm2 * 14.2233;
+            }
+            $('#pressureBar').val(isNaN(bar) ? '' : bar.toFixed(4));
+            $('#pressurePsi').val(isNaN(psi) ? '' : psi.toFixed(4));
+            $('#pressureKgCm2').val(isNaN(kgcm2) ? '' : kgcm2.toFixed(4));
+        }
+
+        function convertTemperature(id) {
+            let celsius, fahrenheit;
+            if (id === 'tempCelsius') {
+                celsius = parseFloat($('#' + id).val());
+                fahrenheit = (celsius * 9/5) + 32;
+            } else if (id === 'tempFahrenheit') {
+                fahrenheit = parseFloat($('#' + id).val());
+                celsius = (fahrenheit - 32) * 5/9;
+            }
+            $('#tempCelsius').val(isNaN(celsius) ? '' : celsius.toFixed(2));
+            $('#tempFahrenheit').val(isNaN(fahrenheit) ? '' : fahrenheit.toFixed(2));
+        }
+
+        function convertCvKv(id) {
+            let cv, kv;
+            if (id === 'cvValue') {
+                cv = parseFloat($('#' + id).val());
+                kv = cv * 0.865;
+            } else if (id === 'kvValue') {
+                kv = parseFloat($('#' + id).val());
+                cv = kv / 0.865;
+            }
+            $('#cvValue').val(isNaN(cv) ? '' : cv.toFixed(2));
+            $('#kvValue').val(isNaN(kv) ? '' : kv.toFixed(2));
+        }
+
+        function calculateFlowRate() {
+            const cv = parseFloat($('#flowCv').val());
+            const sg = parseFloat($('#flowSg').val());
+            const dp = parseFloat($('#flowDp').val());
+            const dn = $('#flowDN').val(); // DN input
+
+            if (isNaN(cv) || isNaN(sg) || isNaN(dp) || sg <= 0 || dp < 0) {
+                $('#flowRate').val('Invalid Input');
+                return;
+            }
+            const flowRate = cv * Math.sqrt(dp / sg);
+            $('#flowRate').val(flowRate.toFixed(2));
+            console.log(`Flow Rate calculated for DN ${dn}: ${flowRate.toFixed(2)} GPM`);
+        }
+
+        function calculatePressureDrop() {
+            const cv = parseFloat($('#flowCv').val());
+            const sg = parseFloat($('#flowSg').val());
+            const flowRate = parseFloat($('#flowRate').val());
+            const dn = $('#flowDN').val(); // DN input
+
+            if (isNaN(cv) || isNaN(sg) || isNaN(flowRate) || cv <= 0 || sg <= 0 || flowRate < 0) {
+                $('#flowDp').val('Invalid Input');
+                return;
+            }
+            const pressureDrop = sg * Math.pow(flowRate / cv, 2);
+            $('#flowDp').val(pressureDrop.toFixed(2));
+            console.log(`Pressure Drop calculated for DN ${dn}: ${pressureDrop.toFixed(2)} psi`);
+        }
+
+        function calculatePipeSize() {
+            const flowRateM3Hr = parseFloat($('#pipeFlowRate').val());
+            const velocityMs = parseFloat($('#pipeVelocity').val());
+
+            if (isNaN(flowRateM3Hr) || isNaN(velocityMs) || velocityMs <= 0) {
+                $('#pipeDN').val('Invalid Input');
+                return;
+            }
+
+            // Convert flow rate from m³/hr to m³/s
+            const flowRateM3S = flowRateM3Hr / 3600;
+
+            // Calculate required cross-sectional area (m²)
+            const areaM2 = flowRateM3S / velocityMs;
+
+            // Calculate required diameter (m)
+            const diameterM = Math.sqrt((4 * areaM2) / Math.PI);
+
+            // Convert diameter to mm
+            const diameterMm = diameterM * 1000;
+
+            // Map diameter to nearest standard DN (Nominal Diameter)
+            // This is a simplified mapping, a real calculator would use a lookup table
+            let recommendedDN;
+            if (diameterMm <= 15) recommendedDN = 'DN 15 (1/2")';
+            else if (diameterMm <= 20) recommendedDN = 'DN 20 (3/4")';
+            else if (diameterMm <= 25) recommendedDN = 'DN 25 (1")';
+            else if (diameterMm <= 32) recommendedDN = 'DN 32 (1 1/4")';
+            else if (diameterMm <= 40) recommendedDN = 'DN 40 (1 1/2")';
+            else if (diameterMm <= 50) recommendedDN = 'DN 50 (2")';
+            else if (diameterMm <= 65) recommendedDN = 'DN 65 (2 1/2")';
+            else if (diameterMm <= 80) recommendedDN = 'DN 80 (3")';
+            else if (diameterMm <= 100) recommendedDN = 'DN 100 (4")';
+            else if (diameterMm <= 125) recommendedDN = 'DN 125 (5")';
+            else if (diameterMm <= 150) recommendedDN = 'DN 150 (6")';
+            else if (diameterMm <= 200) recommendedDN = 'DN 200 (8")';
+            else recommendedDN = `DN ${Math.round(diameterMm)} (Custom)`;
+
+            $('#pipeDN').val(recommendedDN);
+        }
+
+        function downloadConverterData(type) {
+            let data = [];
+            let filename = type + '-conversion.csv';
+            let headers = '';
+
+            if (type === 'pressure') {
+                headers = 'Bar,PSI,kg/cm²\n';
+                for (let i = 1; i <= 10; i++) { // Sample data points
+                    let bar = i * 10;
+                    let psi = bar * 14.5038;
+                    let kgcm2 = bar * 1.0197;
+                    data.push(`${bar.toFixed(2)},${psi.toFixed(2)},${kgcm2.toFixed(2)}`);
+                }
+            } else if (type === 'temperature') {
+                headers = 'Celsius,Fahrenheit\n';
+                for (let i = 0; i <= 100; i += 10) {
+                    let celsius = i;
+                    let fahrenheit = (celsius * 9/5) + 32;
+                    data.push(`${celsius.toFixed(2)},${fahrenheit.toFixed(2)}`);
+                }
+            } else if (type === 'cvkv') {
+                headers = 'Cv,Kv\n';
+                for (let i = 10; i <= 100; i += 10) {
+                    let cv = i;
+                    let kv = cv * 0.865;
+                    data.push(`${cv.toFixed(2)},${kv.toFixed(2)}`);
+                }
+            } else if (type === 'flowdp') {
+                headers = 'Cv,SG,Pressure Drop (psi),Flow Rate (GPM),DN\n';
+                const cv = parseFloat($('#flowCv').val());
+                const sg = parseFloat($('#flowSg').val());
+                const dp = parseFloat($('#flowDp').val());
+                const flowRate = parseFloat($('#flowRate').val());
+                const dn = $('#flowDN').val();
+                data.push(`${cv.toFixed(2)},${sg.toFixed(2)},${dp.toFixed(2)},${flowRate.toFixed(2)},${dn}`);
+            } else if (type === 'pipesize') {
+                headers = 'Flow Rate (m³/hr),Desired Velocity (m/s),Recommended DN\n';
+                const flowRateM3Hr = parseFloat($('#pipeFlowRate').val());
+                const velocityMs = parseFloat($('#pipeVelocity').val());
+                const recommendedDN = $('#pipeDN').val();
+                data.push(`${flowRateM3Hr.toFixed(2)},${velocityMs.toFixed(2)},"${recommendedDN}"`);
+            }
+
+            const csvContent = headers + data.join('\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.setAttribute('download', filename);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>

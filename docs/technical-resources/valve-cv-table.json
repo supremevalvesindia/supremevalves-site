@@ -1,0 +1,114 @@
+[
+  {
+    "DN": 15,
+    "Valve Type": "Gate Valve",
+    "Cv (at 1 psi ΔP)": 15,
+    "Flow Rate (m^3/hr)": 3.4,
+    "Typical Application": "On/Off isolation, low pressure drop"
+  },
+  {
+    "DN": 15,
+    "Valve Type": "Globe Valve",
+    "Cv (at 1 psi ΔP)": 5,
+    "Flow Rate (m^3/hr)": 1.1,
+    "Typical Application": "Throttling, flow regulation"
+  },
+  {
+    "DN": 15,
+    "Valve Type": "Ball Valve",
+    "Cv (at 1 psi ΔP)": 25,
+    "Flow Rate (m^3/hr)": 5.7,
+    "Typical Application": "Quick shut-off, tight sealing"
+  },
+  {
+    "DN": 15,
+    "Valve Type": "Butterfly Valve",
+    "Cv (at 1 psi ΔP)": 20,
+    "Flow Rate (m^3/hr)": 4.5,
+    "Typical Application": "Isolation, moderate throttling"
+  },
+  {
+    "DN": 50,
+    "Valve Type": "Gate Valve",
+    "Cv (at 1 psi ΔP)": 200,
+    "Flow Rate (m^3/hr)": 45.4,
+    "Typical Application": "Full flow, minimal resistance"
+  },
+  {
+    "DN": 50,
+    "Valve Type": "Globe Valve",
+    "Cv (at 1 psi ΔP)": 70,
+    "Flow Rate (m^3/hr)": 15.9,
+    "Typical Application": "Precise flow control"
+  },
+  {
+    "DN": 50,
+    "Valve Type": "Ball Valve",
+    "Cv (at 1 psi ΔP)": 350,
+    "Flow Rate (m^3/hr)": 79.5,
+    "Typical Application": "High flow capacity, quick operation"
+  },
+  {
+    "DN": 50,
+    "Valve Type": "Butterfly Valve",
+    "Cv (at 1 psi ΔP)": 300,
+    "Flow Rate (m^3/hr)": 68.1,
+    "Typical Application": "Large volume flow, compact design"
+  },
+  {
+    "DN": 100,
+    "Valve Type": "Gate Valve",
+    "Cv (at 1 psi ΔP)": 800,
+    "Flow Rate (m^3/hr)": 181.7,
+    "Typical Application": "Main line isolation"
+  },
+  {
+    "DN": 100,
+    "Valve Type": "Globe Valve",
+    "Cv (at 1 psi ΔP)": 280,
+    "Flow Rate (m^3/hr)": 63.6,
+    "Typical Application": "Continuous flow modulation"
+  },
+  {
+    "DN": 100,
+    "Valve Type": "Ball Valve",
+    "Cv (at 1 psi ΔP)": 1400,
+    "Flow Rate (m^3/hr)": 317.9,
+    "Typical Application": "High integrity shut-off"
+  },
+  {
+    "DN": 100,
+    "Valve Type": "Butterfly Valve",
+    "Cv (at 1 psi ΔP)": 1200,
+    "Flow Rate (m^3/hr)": 272.6,
+    "Typical Application": "HVAC, water treatment"
+  },
+  {
+    "DN": 200,
+    "Valve Type": "Gate Valve",
+    "Cv (at 1 psi ΔP)": 3200,
+    "Flow Rate (m^3/hr)": 726.8,
+    "Typical Application": "Large pipeline isolation"
+  },
+  {
+    "DN": 200,
+    "Valve Type": "Globe Valve",
+    "Cv (at 1 psi ΔP)": 1100,
+    "Flow Rate (m^3/hr)": 250.0,
+    "Typical Application": "Heavy-duty throttling"
+  },
+  {
+    "DN": 200,
+    "Valve Type": "Ball Valve",
+    "Cv (at 1 psi ΔP)": 5600,
+    "Flow Rate (m^3/hr)": 1271.9,
+    "Typical Application": "High capacity, critical service"
+  },
+  {
+    "DN": 200,
+    "Valve Type": "Butterfly Valve",
+    "Cv (at 1 psi ΔP)": 4800,
+    "Flow Rate (m^3/hr)": 1090.6,
+    "Typical Application": "Industrial water, air systems"
+  }
+]

@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Documentation files (optional)
+UPDATES_COMPLETED.md
+URGENT_FIXES_APPLIED.md
+FIXES_COMPLETED.md
+PRODUCT_PAGES_COMPLETE.md
+UPDATES_SUMMARY.md
+update_all_pages.sh
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
